@@ -1,0 +1,5 @@
+s = raw_input('enter a string: ')
+print("you have entered " +s)
+print("no. of characters = %d" % len(s))
+print("first characters = %s" % s[0])
+print("last characters = %s"  %[-1])

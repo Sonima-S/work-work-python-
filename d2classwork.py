@@ -1,0 +1,10 @@
+social = raw_input('enter the marks for social')
+science = raw_input('enter the marks for science')
+it = raw_input('enter the marks for it')
+daa= raw_input('enter the marks for daa')
+gc= raw_input('enter the marks for gc')
+print ('total marks,total')
+total =float(social) +float(science) + float(it) + float(daa) + float(gc)        
+percentage = ((total)/500) * 100
+print ('total={}' .format(total))
+print ('percentage= {:.2f} %' .format(percentage)
